@@ -1,0 +1,56 @@
+.dashboard {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    background-color: #FFFFFF; /* Fondo blanco para el dashboard */
+  }
+  
+  .header {
+    background-color: #8FBC8F; /* Verde pastel del NavBar */
+    padding: 1rem;
+  }
+  
+  .nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .navList {
+    list-style-type: none;
+    display: flex;
+    gap: 1rem;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .navList li a {
+    color: #FFFFFF; /* Texto blanco como en el NavBar */
+    text-decoration: none;
+    font-size: 1.2em;
+    transition: 0.3s;
+  }
+  
+  .navList li a:hover {
+    color: #E6F3F5; /* Color de hover similar al del NavBar */
+  }
+  
+  .logoutButton {
+    background-color: #6A8E6A; /* Verde más oscuro para el botón, similar al de contacto en NavBar */
+    color: #FFFFFF;
+    border: none;
+    padding: 0.5rem 1rem;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: 0.3s;
+  }
+  
+  .logoutButton:hover {
+    background-color: #5A7A5A; /* Aún más oscuro al hacer hover */
+  }
+  
+  .main {
+    flex-grow: 1;
+    padding: 2rem;
+    background-color: #FFFFFF; /* Mantenemos el fondo blanco para el contenido principal */
+  }

@@ -1,0 +1,80 @@
+.contacto {
+  display: flex;
+  padding-top: 100px;
+  padding-bottom: 100px;
+  flex-direction: column;
+  background: linear-gradient(0deg, #E6F3F5, #8FBC8F);
+  align-items: center;
+}
+
+.contacto h2 {
+  color: #4A4A4A;
+  font-weight: 400;
+  font-size: 2.5em;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  width: 55%;
+  align-items: center;
+}
+
+.input {
+  border: 1px solid #6A8E6A;
+  width: 90%;
+  height: 25px;
+  background: #FFFFFF;
+  color: #4A4A4A;
+  margin-top: 15px;
+  padding: 5px;
+  border-radius: 4px;
+}
+
+.form textarea {
+  border: 1px solid #6A8E6A;
+  color: #4A4A4A;
+  resize: none;
+  width: 90%;
+  margin-top: 15px;
+  background: #FFFFFF;
+  padding: 5px;
+  border-radius: 4px;
+}
+
+.form button {
+  width: 90px;
+  height: 40px;
+  border-radius: 4px;
+  background: #6A8E6A;
+  border: none;
+  margin-top: 10px;
+  color: #FFFFFF;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.form button:hover {
+  background-color: #5A7A5A;
+}
+
+.form label {
+  color: #4A4A4A;
+  margin-top: 5px;
+  font-size: 1em;
+}
+
+.site-footer {
+  background-color: #6A8E6A;
+  color: #FFFFFF;
+  padding: 10px 0;
+  text-align: center;
+  position: relative;
+  width: 100%;
+}
+
+.site-footer .container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

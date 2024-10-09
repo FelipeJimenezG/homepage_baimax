@@ -1,0 +1,35 @@
+.Inicio {
+  display: flex;
+  flex-direction: column;
+  background: linear-gradient(180deg, #FFFFFF, #8FBC8F);
+  padding: 20px 20px 200px;
+  align-items: center;
+}
+
+.titleContainer {
+  padding-top: 80px;
+}
+
+.Inicio p {
+  font-size: 2.5em;
+  color: #4A4A4A;
+}
+
+.callToAction {
+  background-color: #6A8E6A;
+  color: #FFFFFF;
+  padding: 10px;
+  margin-left: 20px;
+  transition: 0.5s;
+  border-radius: 5px;
+}
+
+.callToAction:hover {
+  background-color: #5A7A5A;
+  padding: 15px;
+  cursor: pointer;
+}
+
+.ctaContainer {
+  padding-top: 40px;
+}

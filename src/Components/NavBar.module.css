@@ -1,0 +1,114 @@
+.navBar {
+  display: flex;
+  height: 50px;
+  width: 100%;
+  position: fixed;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #8FBC8F;
+  color: #FFFFFF;
+}
+
+.navOpen {
+  display: flex;
+  position: fixed;
+  height: 100%;
+  width: 100%;
+  background-color: #FFFFFF;
+  flex-direction: column;
+  align-items: center;
+}
+
+.navLink {
+  display: flex;
+  font-size: 2em;
+  font-weight: 400;
+  color: #FFFFFF;
+  padding-top: 90px;
+}
+
+.navLink:hover {
+  cursor: pointer;
+  color: #E6F3F5;
+}
+
+.logo {
+  display: flex;
+  color: #FFFFFF;
+  font-weight: 600;
+}
+
+@media (min-width: 800px) {
+  .logo {
+    font-size: 1.5em;
+  }
+  .navBar {
+    align-content: center;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 50px;
+  }
+  .linksContainer {
+    display: flex;
+    width: 50%;
+    flex-direction: row;
+    justify-content: space-evenly;
+  }
+  .navLink {
+    font-weight: 400;
+    padding-top: 4px;
+    font-size: 1.4em;
+    transition: 0.5s;
+    color: #FFFFFF;
+  }
+  .navLink:hover {
+    font-size: 1.5em;
+    color: #6A8E6A;
+  }
+  .navOnScroll {
+    align-content: center;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 50px;
+    background-color: #8FBC8F;
+  }
+}
+
+.navOnScroll {
+  display: flex;
+  height: 50px;
+  width: 100%;
+  position: fixed;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #8FBC8F;
+  color: #FFFFFF;
+}
+
+.contactLink {
+  color: #FFFFFF;
+  display: flex;
+  font-size: 1.5em;
+  font-weight: 400;
+  background-color: #6A8E6A;
+  border-radius: 4px;
+  padding: 3px;
+  cursor: pointer;
+  transition: 0.5s;
+  justify-content: space-evenly;
+}
+
+.contactLink:hover {
+  background-color: #5A7A5A;
+}
+
+/* Aseguramos que cualquier otro elemento que pudiera haber sido morado ahora sea verde pastel */
+.border {
+  background-color: #8FBC8F;
+}
+
+/* Si hubiera algún otro elemento con fondo morado, lo cambiamos aquí */
+.anyOtherElement {
+  background-color: #8FBC8F;
+  color: #FFFFFF;
+}

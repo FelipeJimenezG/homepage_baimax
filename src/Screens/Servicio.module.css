@@ -1,0 +1,32 @@
+.servicio {
+  display: flex;
+  padding-top: 100px;
+  align-items: center;
+  flex-direction: column;
+  background: linear-gradient(0deg, #E6F3F5, #8FBC8F);
+}
+
+.webImage {
+  width: 298px;
+  height: 193px;
+  padding-bottom: 80px;
+  background-size: cover;
+  background-position: center;
+}
+
+.servicio p {
+  color: #4A4A4A;
+  font-size: 1.5em;
+  text-align: center;
+  padding-bottom: 60px;
+}
+
+@media (min-width: 800px) {
+  .servicio p {
+    font-size: 2.5em;
+  }
+  .webImage {
+    width: 596px;
+    height: 386px;
+  }
+}

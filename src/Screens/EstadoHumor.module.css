@@ -1,0 +1,95 @@
+.estadoHumorContainer {
+  width: 100%;
+  max-width: 600px;
+  padding: 20px;
+  background-color: #FFFFFF;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  margin-top: 20px; /* Añade un margen superior */
+  margin-bottom: 20px; /* Añade un margen inferior */
+  }
+  
+  .humorBarra {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+  }
+  
+  .humorBoton {
+    background: none;
+    border: none;
+    font-size: 2rem;
+    cursor: pointer;
+    transition: transform 0.2s;
+  }
+  
+  .humorBoton:hover {
+    transform: scale(1.1);
+  }
+  
+  .humorBoton.seleccionado {
+    transform: scale(1.2);
+    color: #8FBC8F;
+  }
+  
+  .humorForm {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+  }
+  
+  .observacionInput {
+    padding: 5px;
+    border: 1px solid #8FBC8F;
+    border-radius: 4px;
+    font-size: 16px;
+    min-height: 100px;
+    resize: vertical;
+  }
+  
+  .submitButton {
+    padding: 10px;
+    background-color: #8FBC8F;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .submitButton:hover {
+    background-color: #6A8E6A;
+  }
+  
+  .registrosList {
+    margin-top: 30px;
+    max-height: 400px; /* Altura máxima para la lista de registros */
+    overflow-y: auto; /* Permite scroll dentro de la lista de registros */
+  }
+  
+  .registroItem {
+    background-color: #F5F5F5;
+    border: 1px solid #8FBC8F;
+    border-radius: 4px;
+    padding: 15px;
+    margin-bottom: 15px;
+  }
+  
+  h2, h3 {
+    color: #8FBC8F;
+    margin-bottom: 15px;
+  }
+  .body {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start; /* Cambiado de center a flex-start */
+    padding: 20px;
+    background-image: url(/src/assets/enfermera.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed; /* Mantiene el fondo fijo */
+    overflow-y: auto; /* Permite scroll vertical */
+  }

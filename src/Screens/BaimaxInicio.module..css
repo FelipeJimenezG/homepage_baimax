@@ -1,0 +1,58 @@
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  font-family: Arial, sans-serif;
+}
+
+.title {
+  color: #8FBC8F;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.description {
+  text-align: justify;
+  line-height: 1.6;
+  margin-bottom: 30px;
+  color: #333333;
+}
+
+.manual {
+  background-color: #F5F5F5;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.manual h2 {
+  color: #8FBC8F;
+  border-bottom: 2px solid #8FBC8F;
+  padding-bottom: 10px;
+  margin-bottom: 20px;
+}
+
+.section {
+  margin-bottom: 25px;
+}
+
+.section h3 {
+  color: #6A8E6A;
+  margin-bottom: 10px;
+}
+
+.section p {
+  text-align: justify;
+  line-height: 1.5;
+  color: #333333;
+}
+.body{
+  min-height: 100vh;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    background-image: url(/src/assets/enfermera.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}

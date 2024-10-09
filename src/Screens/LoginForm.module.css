@@ -1,0 +1,143 @@
+*body{
+  background-image: url(/src/assets/WebImage.jpg);
+}
+.loginPage {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  background-image: url(/src/assets/WebImage.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.loginSection {
+  position: relative;
+  max-width: 400px;
+  background-color: transparent;
+  border: 2px solid rgba(66, 54, 54, 0.5);
+  border-radius: 20px;
+  backdrop-filter: blur(55px);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 2rem 3rem;
+}
+.loginForm {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.loginForm h1 {
+  font-size: 2rem;
+  color: #fff;
+  text-align: center;
+}
+
+.loginForm button {
+  width: 100%;
+  height: 40px;
+  border-radius: 40px;
+  background-color: rgba(255, 255, 255, 0.5);
+  border: none;
+  outline: none;
+  cursor: pointer;
+  font-size: 1rem;
+  font-weight: 600;
+  transition: all 0.4s ease;
+}
+
+.loginForm button:hover {
+  background-color: rgba(255, 255, 255, 0.5);
+}
+
+.register {
+  font-size: 0.9rem;
+  color: #fff;
+  text-align: center;
+  margin: 25px 0 10px;
+}
+
+.register p a {
+  text-decoration: none;
+  color: #fff;
+  font-weight: 600;
+}
+
+.register p a:hover {
+  text-decoration: underline;
+}
+
+.inputbox {
+  display: flex;
+  flex-direction: column-reverse;
+  max-width: 100x;
+  border-bottom: 2px solid #fff;
+}
+
+.inputbox label {
+  color: #fff;
+  font-size: 1rem;
+  pointer-events: none;
+  transition: none;
+}
+
+.inputbox input:focus ~ label,
+.inputbox input:valid ~ label {
+  top: 5px;
+}
+
+.forget {
+  margin: 15px 0;
+  font-size: 0.85rem;
+  color: #fff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.forget label {
+  display: flex;
+  align-items: center;
+}
+
+.forget label input {
+  margin-right: 8px;
+}
+
+.forget a {
+  color: #fff;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+.forget a:hover {
+  text-decoration: underline;
+}
+
+
+.loginLink {
+  margin-top: 20px;
+  text-align: center;
+}
+
+.loginLink a {
+  color: #4CAF50;
+  text-decoration: none;
+}
+
+.loginLink a:hover {
+  text-decoration: underline;
+}
+.message {
+  padding: 10px;
+  margin-bottom: 15px;
+  border-radius: 5px;
+  text-align: center;
+  font-weight: bold;
+  background-color: rgba(255, 255, 255, 0.2);
+  color: #fff;
+}
+

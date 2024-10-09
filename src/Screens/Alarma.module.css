@@ -1,0 +1,132 @@
+.alarmaContainer {
+  width: 100%;
+  max-width: 600px;
+  padding: 20px;
+  background-color: #FFFFFF;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.alarmaForm {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  margin-bottom: 20px;
+}
+
+.inputGroup {
+  display: flex;
+  flex-direction: column;
+}
+
+.inputGroup label {
+  margin-bottom: 5px;
+  font-weight: bold;
+  color: #6A8E6A;
+}
+
+.inputGroup input {
+  padding: 8px;
+  border: 1px solid #8FBC8F;
+  border-radius: 4px;
+  font-size: 16px;
+}
+
+.submitButton {
+  padding: 10px;
+  background-color: #8FBC8F;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background-color 0.3s ease;
+}
+
+.submitButton:hover {
+  background-color: #6A8E6A;
+}
+
+.alarmasList {
+  margin-top: 30px;
+  max-height: 400px; /* Altura máxima para la lista de registros */
+  overflow-y: auto; /* Permite scroll dentro de la lista de registros */
+}
+
+.alarmaItem {
+  background-color: #F5F5F5;
+  border: 1px solid #8FBC8F;
+  border-radius: 4px;
+  padding: 10px;
+  margin-bottom: 10px;
+  font-size: 16px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.alarmaItem span {
+  font-weight: bold;
+  color: #6A8E6A;
+}
+
+h2, h3 {
+  color: #8FBC8F;
+  margin-bottom: 15px;
+}
+
+.alerta {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: #F8D7DA;
+  border: 1px solid #F5C6CB;
+  border-radius: 4px;
+  padding: 20px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  z-index: 1000;
+  text-align: center;
+  min-width: 300px;
+}
+
+.alerta h3 {
+  color: #721C24;
+  margin-top: 0;
+  margin-bottom: 15px;
+}
+
+.alerta p {
+  margin-bottom: 10px;
+}
+
+.cerrarAlerta {
+  background-color: #8FBC8F;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-top: 15px;
+  font-size: 16px;
+}
+
+.cerrarAlerta:hover {
+  background-color: #6A8E6A;
+}
+
+.body {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 20px;
+  background-image: url(/src/assets/enfermera.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+  overflow-y: auto;
+}

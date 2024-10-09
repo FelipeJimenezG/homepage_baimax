@@ -1,0 +1,19 @@
+.Beneficios {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: linear-gradient(0deg, #E6F3F5, #8FBC8F);
+  padding-bottom: 100px;
+}
+
+.Beneficios p {
+  color: #4A4A4A;
+  padding-top: 20px;
+  font-size: 1.4em;
+}
+
+.BenefitTitle {
+  font-size: 2em;
+  font-weight: 400;
+  color: #4A4A4A;
+}
