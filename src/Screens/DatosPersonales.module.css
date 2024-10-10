@@ -2,14 +2,14 @@
   min-height: 100vh;
   display: flex;
   justify-content: center;
-  align-items: flex-start; /* Cambiado de center a flex-start */
+  align-items: flex-start; 
   padding: 20px;
   background-image: url(/src/assets/enfermera.jpg);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
-  background-attachment: fixed; /* Mantiene el fondo fijo */
-  overflow-y: auto; /* Permite scroll vertical */
+  background-attachment: fixed; 
+  overflow-y: auto; 
 }
 
 .datosPersonalesContainer {
@@ -19,8 +19,8 @@
   background-color: rgba(255, 255, 255, 0.9);
   border-radius: 8px;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-  margin-top: 20px; /* Añade un margen superior */
-  margin-bottom: 20px; /* Añade un margen inferior */
+  margin-top: 20px; 
+  margin-bottom: 20px; 
 }
 
 .formSection {
@@ -42,21 +42,21 @@ input, textarea, select {
   border: 1px solid #8FBC8F;
   border-radius: 4px;
   font-size: 16px;
-  height: 40px; /* Asegura una altura consistente para todos los campos */
-  box-sizing: border-box; /* Incluye padding y border en el ancho total */
+  height: 40px; 
+  box-sizing: border-box; 
 }
 
 select {
-  appearance: none; /* Elimina la apariencia nativa del select */
+  appearance: none; 
   background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='12' height='12' viewBox='0 0 12 12'%3E%3Cpath fill='%238FBC8F' d='M10.293 3.293L6 7.586 1.707 3.293A1 1 0 00.293 4.707l5 5a1 1 0 001.414 0l5-5a1 1 0 10-1.414-1.414z'/%3E%3C/svg%3E");
   background-repeat: no-repeat;
   background-position: right 10px center;
-  padding-right: 30px; /* Espacio para la flecha */
+  padding-right: 30px; 
 }
 
 textarea {
   min-height: 100px;
-  height: auto; /* Permite que el textarea se expanda */
+  height: auto; 
   resize: vertical;
 }
 
@@ -77,8 +77,8 @@ textarea {
 
 .registrosList {
   margin-top: 30px;
-  max-height: 400px; /* Altura máxima para la lista de registros */
-  overflow-y: auto; /* Permite scroll dentro de la lista de registros */
+  max-height: 400px; 
+  overflow-y: auto; 
 }
 
 .registroItem {

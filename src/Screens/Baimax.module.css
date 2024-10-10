@@ -38,7 +38,7 @@
 
 .navLink:hover {
   color: #E6F3F5;
-  top: -3px; /* This creates the "lift" effect */
+  top: -3px; 
 }
 
 .active {
@@ -80,8 +80,8 @@
 
 .logoutButton:hover {
   background-color: #5A7A5A;
-  top: -3px; /* This creates the "lift" effect */
-  box-shadow: 0 4px 8px rgba(0,0,0,0.1); /* Optional: adds a subtle shadow for more depth */
+  top: -3px; 
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1); 
 }
 
 .logoutButton:active {

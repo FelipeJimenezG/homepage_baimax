@@ -24,8 +24,8 @@ const LoginForm = () => {
         setMessage('Ingresando...');
         localStorage.setItem('auth', '"yes"');
         localStorage.setItem('userId', data.id);
-        localStorage.setItem('userFullName', data.user); // Guardar el nombre completo
-        setTimeout(() => navigate('/Baimax'), 5000); // Retraso de 5 segundos antes de redirigir
+        localStorage.setItem('userFullName', data.user); 
+        setTimeout(() => navigate('/Baimax'), 5000); 
       })
       .catch((error) => {
         if (error.response) {

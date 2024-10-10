@@ -51,8 +51,8 @@
 
 .alarmasList {
   margin-top: 30px;
-  max-height: 400px; /* Altura máxima para la lista de registros */
-  overflow-y: auto; /* Permite scroll dentro de la lista de registros */
+  max-height: 400px; 
+  overflow-y: auto; 
 }
 
 .alarmaItem {

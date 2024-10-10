@@ -31,7 +31,6 @@ const Alarma = () => {
   const fetchAlarmas = async (id) => {
     try {
       const response = await axios.get(`http://localhost:4000/api/alarmas?userId=${id}`);
-      // Sort alarmas by fecha_programada in descending order (newest first)
       const sortedAlarmas = response.data.sort((a, b) => 
         new Date(b.fecha_programada) - new Date(a.fecha_programada)
       );
@@ -79,7 +78,6 @@ const Alarma = () => {
       try {
         const response = await axios.post('http://localhost:4000/api/alarmas', nuevaAlarma);
         if (response.status === 200) {
-          // Add the new alarm to the beginning of the array
           setAlarmas(prevAlarmas => [response.data, ...prevAlarmas]);
           setDia('');
           setHora('');

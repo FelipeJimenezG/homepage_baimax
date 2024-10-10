@@ -27,8 +27,7 @@ const Registro = () => {
       ...prevState,
       [name]: value
     }));
-
-    // Validación de la contraseña
+  
     if (name === 'password') {
       if (value.length < 8) {
         setPasswordError('La contraseña debe contener 8 caracteres como mínimo');
@@ -41,7 +40,6 @@ const Registro = () => {
   const handleSubmit = (e) => {
     e.preventDefault();
     
-    // Verificar que las contraseñas coincidan y cumplan con el requisito de longitud
     if (formData.password !== formData.confirmPassword) {
       alert("Las contraseñas no coinciden");
       return;
@@ -52,7 +50,6 @@ const Registro = () => {
       return;
     }
     
-    // Eliminar confirmPassword antes de enviar los datos
     const { confirmPassword, ...dataToSend } = formData;
 
     axios.post('http://localhost:4000/api/register', dataToSend)
